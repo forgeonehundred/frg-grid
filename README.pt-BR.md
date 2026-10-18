@@ -8,8 +8,13 @@
 
 Este é o guia em linguagem direta da **Forge 25-Grid** — o tabuleiro por trás do
 [Forge Dojo: Grid Clash](https://forge100.com). Para quem joga, este é o essencial:
-o que é a grid, o que significam seus 25 domínios e alguns exemplos de como
-decisões reais aparecem nela.
+o que é a grid, o que significam seus 25 domínios e como decisões reais se
+transformam em efeitos, trade-offs e cenários jogáveis.
+
+A documentação em português foi organizada como uma sequência única: **modelo →
+decisões → cenários → prática no Grid Clash**.
+
+👉 **[Abrir o índice completo da documentação em PT-BR →](docs/pt-BR/README.md)**
 
 ---
 
@@ -74,7 +79,46 @@ Assim, `F4` = **F**inanças × dimensão **4** (Eficiência) = **Lucratividade**
 
 ---
 
-## Alguns exemplos
+## Da grid às decisões
+
+Uma decisão de negócio raramente altera uma única célula. Ela normalmente
+fortalece alguns domínios e cobra um preço em outros.
+
+A documentação brasileira usa a seguinte cadeia para modelar esses efeitos:
+
+```text
+Ação → Saída → Transformação → Resultado
+```
+
+O **Resultado** é associado a uma célula da Forge 25-Grid e a um sinal (`+` ou
+`−`). Isso permite separar a ação executada pelo gestor do estado ou recurso do
+negócio que foi alterado.
+
+👉 **[Entenda decisões e trade-offs →](docs/pt-BR/04-decisoes-e-tradeoffs.md)**
+
+---
+
+## Da decisão ao cenário
+
+Os cenários do Grid Clash são construídos a partir desse mesmo modelo causal.
+Cada decisão precisa produzir efeitos justificáveis pela definição das células,
+incluindo benefícios, efeitos secundários e custos escondidos.
+
+👉 **[Framework de criação de cenários →](docs/pt-BR/05-framework-de-cenarios.md)**
+
+---
+
+## Da grid à prática
+
+O **Forge Dojo: Grid Clash** transforma o framework em prática repetida. Os
+jogadores recebem uma decisão, selecionam as células que acreditam ser afetadas e
+depois comparam sua leitura com os impactos modelados.
+
+👉 **[Como funciona o Grid Clash →](docs/pt-BR/06-grid-clash.md)**
+
+---
+
+## Exemplos
 
 A grid ganha vida quando uma decisão real é colocada sobre ela — uma única
 escolha normalmente fortalece alguns domínios (`+`) e cobra um preço em outros
@@ -91,9 +135,13 @@ Três exemplos curtos, extraídos dos cenários do jogo, estão em
 
 | Página | Conteúdo |
 |---|---|
+| [Índice PT-BR](docs/pt-BR/README.md) | Trilha completa da documentação brasileira |
 | [A Grid](docs/pt-BR/01-a-grid.md) | O modelo 5×5 e como ler qualquer código de domínio |
 | [Os Cinco Pilares](docs/pt-BR/02-os-cinco-pilares.md) | Comércio, Operações, Pessoas, Finanças e Integridade |
 | [Os 25 Domínios](docs/pt-BR/03-os-25-dominios.md) | A referência completa, com definição e exemplos de cada domínio |
+| [Decisões e trade-offs](docs/pt-BR/04-decisoes-e-tradeoffs.md) | Como uma decisão movimenta várias células |
+| [Framework de Cenários](docs/pt-BR/05-framework-de-cenarios.md) | Método para transformar decisões em conteúdo rigorosamente mapeado |
+| [Grid Clash](docs/pt-BR/06-grid-clash.md) | Como a grid vira uma experiência prática de aprendizagem |
 | [Exemplos](docs/pt-BR/examples/) | Decisões reais mapeadas sobre a grid |
 
 ## Licença
