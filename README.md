@@ -2,6 +2,8 @@
 
 > One picture of a whole business: **5 pillars × 5 dimensions = 25 domains.**
 
+[Português (Brasil)](README.pt-BR.md)
+
 ![The Forge 25-Grid](assets/grid.svg)
 
 This is the plain-language guide to the **Forge 25-Grid** — the board behind
